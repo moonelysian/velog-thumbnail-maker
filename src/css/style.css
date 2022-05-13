@@ -1,0 +1,111 @@
+div.wrapper {
+  width: 520px;
+  height: 720px;
+  border: 5px solid #5d3fd3;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin: calc((100vh - 720px) / 2) auto;
+  box-shadow: -32px 32px #000;
+}
+
+.switch-section {
+  width: 500px;
+  position: relative;
+  text-align: right;
+}
+
+#switch {
+  position: absolute;
+  /* hidden */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.switch-label {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  width: 58px;
+  height: 28px;
+  background: #fff;
+  border: 2px solid #fec602;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.switch-label:hover {
+  background: #fec6021f;
+}
+
+.circle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border-radius: 20px;
+  background: #fec602;
+  transition: 0.2s;
+}
+
+section.image-section div {
+  width: 500px;
+  height: 250px;
+  background-color: gray;
+  margin: 30px auto;
+}
+
+.button-section section {
+  width: 500px;
+  height: 100%;
+  margin: 30px auto;
+  display: flex;
+}
+
+.button-section button {
+  width: 30%;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #fec602;
+}
+.button-section button:hover {
+  background-color: #fec602;
+  color: #fff;
+}
+
+.text-section {
+  justify-content: space-between;
+}
+
+.background-button-section {
+  justify-content: space-between;
+}
+
+.backgroud-color-section {
+  justify-content: space-evenly;
+}
+
+.action-section {
+  width: 500px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-section button {
+  background-color: #5d3fd3;
+  color: #fff;
+  width: 45%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #5d3fd3;
+}
+.action-section button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 5px solid #5d3fd3;
+}

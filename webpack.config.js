@@ -21,7 +21,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "project",
+      title: "You Dont Know Thumnail",
       template: "./index.html",
       inject: "body",
     }),
