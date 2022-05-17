@@ -1,6 +1,5 @@
-# webpack-boilerplate
-
-webpack boilterplate 입니다.<br><br> prettier과 eslint가 설정되어있습니다. <br><br> 다운로드 혹은 git clone 하여 `npm install` 실행 후 사용하시면 됩니다.
+# velog-thumbnail-maker
+https://github.com/moonelysian/webpack-boilerplate 를 기반으로 만들었습니다.
 
 ## Installation
 
