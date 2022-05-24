@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'EliceDigitalBaeum-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EliceDigitalBaeum_Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EliceDigitalBaeum_Regular.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 div.wrapper {
   width: 520px;
   height: 720px;
@@ -51,11 +67,21 @@ div.wrapper {
   transition: 0.2s;
 }
 
-section.image-section div {
+.image-section {
   width: 500px;
   height: 250px;
   background-color: gray;
   margin: 30px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+.image-section p {
+  height: fit-content;
+  margin: unset;
 }
 
 .button-section section {
@@ -77,16 +103,13 @@ section.image-section div {
   color: #fff;
 }
 
-.text-section {
-  justify-content: space-between;
-}
-
 .background-button-section {
   justify-content: space-between;
 }
 
 .backgroud-color-section {
   justify-content: space-evenly;
+  display: none !important;
 }
 
 .action-section {
@@ -108,4 +131,50 @@ section.image-section div {
   background-color: #fff;
   color: #000;
   border: 5px solid #5d3fd3;
+}
+
+input {
+  border: unset;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+  margin: auto;
+  color: #5d3fd3;
+  overflow-wrap: break-word;
+  white-space: nowrap;
+}
+input::placeholder {
+  color: #5d3fd341;
+}
+input:focus {
+  background-color: #fec702bb;
+  color: #fff;
+  outline: thick solid #5d3fd3;
+}
+input:focus::placeholder {
+  color: rgba(255, 255, 225, 0.5);
+}
+
+.title {
+  font-family: 'EliceDigitalBaeum-Bd';
+  font-size: 36px;
+  overflow-wrap: break-word;
+}
+.subtitle {
+  font-family: 'EliceDigitalBaeum_Regular';
+  font-size: 28px;
+  overflow-wrap: break-word;
+}
+.tag {
+  font-family: 'EliceDigitalBaeum_Regular';
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+
+input.title,
+input.subtitle,
+input.tag {
+  margin-right: 10px;
+  font-family: 'EliceDigitalBaeum_Regular';
+  font-size: 20px;
 }
